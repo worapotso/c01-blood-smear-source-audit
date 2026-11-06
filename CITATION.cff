@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: >-
+  If you use the audit code or results in scholarly work, please cite the
+  associated C-01 paper when it becomes available. Until its bibliographic
+  details are confirmed, cite this software repository.
+type: software
+title: "C-01 Public Blood-Smear Source Integrity Audit (Independent Reimplementation)"
+authors:
+  - family-names: "Sommool"
+    given-names: "Worapot"
+version: 0.1.0
+license: MIT
+keywords:
+  - source-audit
+  - blood-smear
+  - data-integrity
+  - reproducibility

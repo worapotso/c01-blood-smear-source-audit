@@ -1,0 +1,2 @@
+# Dataset access and image rights
+No original microscopy JPEG/PNG or downloaded BCCD/BCDD repository source snapshots are included. Public dataset presence does not independently grant redistributable image rights. Obtain source data only through original sites at pinned revisions after appropriate source terms review. Never upload, commit or redistribute original images, patient material or source annotations through this stage. This repo candidate is the audit code/protocol only, without compiled datasets or private study outputs.
