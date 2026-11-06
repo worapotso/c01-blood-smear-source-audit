@@ -1,6 +1,10 @@
 # C-01 Blood-Smear Source Integrity Audit
 
-**Status: PRIVATE RESEARCH STAGE. Not publicly accessible. Do not publish until the C-01 paper is submitted and the PI explicitly confirms the visibility change.**
+**Status: Public research-code repository.** The manuscript is under preparation for Ubi-Media 2027. This independent source-audit implementation is not an original production-pipeline replay. Historical expected values are not results from a new notebook execution.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/worapotso/c01-blood-smear-source-audit/blob/main/notebooks/C01_SourcePinned_Audit_Colab.ipynb)
+
+Repository: https://github.com/worapotso/c01-blood-smear-source-audit .
 This independently authored, read-only source audit accompanies the research
 manuscript **Tracing Data Integrity and Interoperability Across Public Blood-Smear
 Image Repositories: A Cross-Format Case Study** (under manuscript review; not yet
@@ -35,8 +39,8 @@ their photographs, annotations, patient/source metadata, or dataset clones here.
 4. Record actual pinned source SHA/git revisions, Python/Pillow versions and all
    32 PASS/MISMATCH/NOT_TESTED statuses. No automatic upload of source images or raw
    annotations is intended.
-5. After public release is separately approved, verify the published commit/tag,
-   then add an Open-in-Colab badge and a public URL to the manuscript.
+5. Verify the linked Git commit and use the Open in Colab badge above. The
+   code and expected values alone are not a historical Windows/Colab receipt.
 
 ## Evidence boundaries
 The earlier G3 independent Windows/Colab audit is separately archived. A fresh
@@ -48,7 +52,7 @@ inconsistencies, not adjudicated biological truth. M3 and M4 are out of scope.
 ## License and citation
 Code and this candidate notebook are prepared under the **MIT License** (see
 \`LICENSE\`). The software copyright attribution and institutional release authority
-must be confirmed before converting this private research repository to public visibility. This license **does not require
+must be respected by downstream users. Open-source permission applies to the independently authored code only, not to images or annotations from the source repositories. This license **does not require
 academic paper citation as a legal condition**; however, scientific attribution
 is requested. Use GitHub's **Cite this repository** button backed by
 \`CITATION.cff\`. Once the manuscript is accepted, add its accurate proceedings
