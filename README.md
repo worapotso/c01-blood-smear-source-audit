@@ -29,6 +29,14 @@ an accepted or published conference paper).
 Fetch data from original repositories under their own terms. We do not publish
 their photographs, annotations, patient/source metadata, or dataset clones here.
 
+## Equations (1)–(3): explanations and worked examples
+
+- **[Detailed Thai guide](docs/EQUATIONS_EXPLAINED_TH.md)** — multiset source-record reconciliation, positive-extent boxes, horizontal dHash/Hamming distance, numeric worked examples, and interpretation limits.
+- **[Detailed English guide](docs/EQUATIONS_EXPLAINED_EN.md)** — companion for international readers.
+- **[Executable offline synthetic walkthrough](examples/equations_demo.py)** and [regression tests](tests/test_equation_examples.py). No original microscopy images, annotation records, dataset clones, or network access.
+
+Run `python examples/equations_demo.py` and `python tests/test_equation_examples.py` after installing the pinned requirements. Results from these synthetic examples must **not** be presented as historical source-audit observations.
+
 ## Getting started
 1. With Python 3.11+ and an isolated environment, install \`pip install -r requirements.txt\`.
 2. Run synthetic-only checks: \`python tests/test_source_synthetic.py\`.
