@@ -1,14 +1,14 @@
 # C-01 Blood-Smear Source Integrity Audit
 
-**Status: Public research-code repository.** The manuscript is under preparation for Ubi-Media 2027. This independent source-audit implementation is not an original production-pipeline replay. Historical expected values are not results from a new notebook execution.
+**Status: Public research-code repository; associated manuscript accepted at Ubi-Media 2027 (Submission #6794).** The final proceedings DOI, pages and publication metadata are pending. This independent source-audit implementation is not an original production-pipeline replay. Historical expected values are not results from a new notebook execution.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/worapotso/c01-blood-smear-source-audit/blob/main/notebooks/C01_SourcePinned_Audit_Colab.ipynb)
 
 Repository: https://github.com/worapotso/c01-blood-smear-source-audit .
 This independently authored, read-only source audit accompanies the research
 manuscript **Tracing Data Integrity and Interoperability Across Public Blood-Smear
-Image Repositories: A Cross-Format Case Study** (under manuscript review; not yet
-an accepted or published conference paper).
+Image Repositories: A Cross-Format Case Study** (accepted, Ubi-Media 2027,
+Submission #6794; not yet identified by a published DOI or proceedings page range).
 
 ## Scope and files
 - \`src/audit_sources_r2_frozen.py\`: frozen Python implementation of the independent
@@ -63,12 +63,11 @@ Code and this candidate notebook are prepared under the **MIT License** (see
 must be respected by downstream users. Open-source permission applies to the independently authored code only, not to images or annotations from the source repositories. This license **does not require
 academic paper citation as a legal condition**; however, scientific attribution
 is requested. Use GitHub's **Cite this repository** button backed by
-\`CITATION.cff\`. Once the manuscript is accepted, add its accurate proceedings
-metadata and DOI to \`CITATION.cff\` without inventing publication details.
+\`CITATION.cff\`. Add verified proceedings metadata and DOI to \`CITATION.cff\` without inventing publication details.
 
 If the paper is relevant to your work, please cite:
 W. Sommool and coauthors, *Tracing Data Integrity and Interoperability Across
 Public Blood-Smear Image Repositories: A Cross-Format Case Study*,
-manuscript under preparation for Ubi-Media 2027 (publication metadata pending).
+accepted at Ubi-Media 2027, Submission #6794 (final publication metadata pending).
 
 Please also cite the upstream dataset creators and follow their licenses.
